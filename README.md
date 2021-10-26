@@ -44,4 +44,3 @@ We also can make a non-monotonic heuristic, monotonic with some changes!
 For this we only need to define a new and more appropriate heuristic like the below schema.
 
 <img src="Screen Shot 1400-08-05 at 00.31.06.png" alt="new heuristic" width="500" height="150"/>
-
