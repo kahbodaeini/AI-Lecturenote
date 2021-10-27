@@ -46,10 +46,14 @@ For this we only need to define a new and more appropriate heuristic like the be
 
 <img src="Screen Shot 1400-08-05 at 00.31.06.png" alt="new heuristic" width="500" height="150"/>
 
-**ℏ(n’) = max(h(n’), ℏ(n’) - c(n, a, n’))**
+
+
+
+**$\overline{h}$(n’) = max(h(n’), ℏ(n’) - c(n, a, n’))**
 
 Above Heuristic is defined Recursively.
 
 <img src="heuristic proof.png" alt="heuristic proof" width="400" height="300"/>
 
+kir kir
 kir
