@@ -33,6 +33,7 @@ So consider this figure:
 
 ![example](example.png)
 
+
 If our heuristic is admissible, we have that **h(n) <= h*(n)** for every node n where **h*** is the real cost to the goal. So we deduct that **h(A) <= 4**, **h(C) <= 3** and **h(G) <= 0**.
 
 If we want our heuristic to be *Consistent* we should have **h(G) = 0** and **h(n) <= cost(n, c) + h(c)** so in our case we have **h(A) <= 1 + h(C)** and **h(C) <= 3 + h(G) = 3**
@@ -44,3 +45,7 @@ We also can make a non-monotonic heuristic, monotonic with some changes!
 For this we only need to define a new and more appropriate heuristic like the below schema.
 
 <img src="Screen Shot 1400-08-05 at 00.31.06.png" alt="new heuristic" width="500" height="150"/>
+
+**ℏ(n’) = max(h(n’), ℏ(n’) - c(n, a, n’))**
+
+Above Heuristic is defined Recursively.
