@@ -55,5 +55,28 @@ Above Heuristic is defined Recursively.
 
 <img src="heuristic proof.png" alt="heuristic proof" width="400" height="300"/>
 
-kir kir
-kir kir
+**$\overline{h}$(n’) >= $\overline{h}$(n) - c(n, a, n')**
+
+So obviously we have **$\overline{h}$(n’) + c(n, a, n') >= $\overline{h}$(n)**
+
+***Heuristic Dominance***
+
+For one heuristic to dominate another, all of its values must be greater than or equal to the corresponding values of the other heuristic.
+So if $h_{2}$ dominates $h_{1}$(both are admissible) it means that A* algorithm expands less nodes with $h_{2}$ in the target path than $h_{1}$.
+On another hand it means if a node is expanded by $h_{2}$ it will be expanded by $h_{1}$(consider that it’s not a biconditional proposition!)
+
+*Proof:*
+
+If $h_{2}$ dominate $h_{1}$, A* with $h_{2}$ expands at most the same number of nodes as when using $h_{1}$.
+
+A* opens all node with **f(n) < C** and some with **f(n) = C**.
+
+
+Note that **$h_{2}(n)$ >= $h_{1}(n)$**
+
+If node n is expanded by A* with $h_{2}$ then **$h_{2}(n)$ < C - g(n)**
+
+So ***$h_{1}(n)$ <= $h_{2}(n)$ < C - g(n)*** and it would be expanded by A* with $h_{1}$ as well.
+
+We also can improve our heuristic by some methods.
+We are always
