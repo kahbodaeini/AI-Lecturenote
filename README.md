@@ -56,4 +56,4 @@ Above Heuristic is defined Recursively.
 <img src="heuristic proof.png" alt="heuristic proof" width="400" height="300"/>
 
 kir kir
-kir
+kir kir
