@@ -79,4 +79,15 @@ If node n is expanded by A* with $h_{2}$ then **$h_{2}(n)$ < C - g(n)**
 So ***$h_{1}(n)$ <= $h_{2}(n)$ < C - g(n)*** and it would be expanded by A* with $h_{1}$ as well.
 
 We also can improve our heuristic by some methods.
-We are always
+
+We are always trying to lower the difference between h* and h, expanded nodes and algorithm time complexity by making change in our heuristic.
+
+One of the main ways for improving heuristics is **Relaxing** the problem.
+
+In this procedure we try to enlarge the feasible answers set by simplifying the problem.
+
+***Relaxing***
+
+One of the most common to find efficient heuristic function is that we convert our hard problem which is indissoluble in reasonable time, to a *more general problem with larger state space*.
+
+Discussing more specifically, oroginal problem has a set of constraints.
