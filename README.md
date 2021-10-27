@@ -44,7 +44,7 @@ Because of the *Admissibility* **h(C) should be less than 3**, but if **h(A) > 1
 We also can make a non-monotonic heuristic, monotonic with some changes!
 For this we only need to define a new and more appropriate heuristic like the below schema.
  
-<img src="Screen Shot 1400-08-05 at 00.31.06.png" alt="new heuristic" width="500" height="150"/>
+<img src="c.png" alt="new heuristic" width="500" height="150"/>
  
  
  
@@ -99,4 +99,9 @@ Consider h as the answer and h' as our heuristic
 h' = min(S'), h = min(S) $\Lambda$ S $\subseteq$ S' $\Lambda$ $\forall$ s, s' if s $\subseteq$ s' => $min(s') \le min(s)$ => $h' \le h$
  
  ***Example***
- In below problem, which is an NP-hard problem (indissoluble in linear time), we want to find the Hamiltonian cycle with least weight.
+
+ In below problem, which is an NP-hard problem (indissoluble in linear time), we want to find the Hamiltonian path with least weight.
+
+<img src="hamilton path.png" alt="hamilton path" width="500" height="300"/>
+
+Hamilton path is a tree which every its inner node have exactly one leaf. Hence, the problem is converting above graph to a 1-array tree, which covers all nodes of the graph with existing edges and minimum sum of edges' weight. Now we ignore being 1-array tree constraint to convert original problem to a more general one. Accordingly our problem is now a Minimum Spaning Tree problem which is soluable in $n^{2}$ time complexity.
