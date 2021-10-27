@@ -49,3 +49,7 @@ For this we only need to define a new and more appropriate heuristic like the be
 **ℏ(n’) = max(h(n’), ℏ(n’) - c(n, a, n’))**
 
 Above Heuristic is defined Recursively.
+
+<img src="heuristic proof.png" alt="heuristic proof" width="400" height="300"/>
+
+kir
