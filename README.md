@@ -29,6 +29,7 @@ Now we define **f(n)** function as **f(n) = h(n) + g(n)** where g(n) is sum of c
 
 
 <hr style="border:2px solid gray"> </hr>
+
 Effect of **Monotonicity** on a Heuristic is shown in the below schema:
 <p align="center">
 <img src="monotonic.png" alt="monotonic" width="600" height="300"/>
