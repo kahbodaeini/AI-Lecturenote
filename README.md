@@ -28,8 +28,6 @@ Now we define **f(n)** function as **f(n) = h(n) + g(n)** where g(n) is sum of c
 </p>
 
 
-<hr style="border:2px solid gray"> </hr>
-
 Effect of **Monotonicity** on a Heuristic is shown in the below schema:
 <p align="center">
 <img src="monotonic.png" alt="monotonic" width="600" height="300"/>
@@ -86,7 +84,10 @@ If $h_{2}$ dominate $h_{1}$, A* with $h_{2}$ expands at most the same number of 
 A* opens all node with **f(n) < C** and some with **f(n) = C**.
  
  
-Note that **$h_{2}(n)$ $\ge$ $h_{1}(n)$**
+Note that 
+**$h_{2}(n)$
+$\ge$ 
+$h_{1}(n)$**
  
 If node n is expanded by A* with $h_{2}$ then **$h_{2}(n)$ < C - g(n)**
  
@@ -99,7 +100,9 @@ We are always trying to lower the difference between h* and h, expanded nodes an
 One of the main ways for improving heuristics is **Relaxing** the problem.
  
 In this procedure we try to enlarge the feasible answers set by simplifying the problem.
- 
+
+<hr style="border:2px solid gray"> </hr>
+
 ***Relaxing***
  
 One of the most common ways to find efficient heuristic function is that we convert our hard problem which is indissoluble in reasonable time, to a *more general problem with larger state space*.
