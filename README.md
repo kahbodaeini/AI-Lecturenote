@@ -3,7 +3,7 @@
  
 First we review some basic definitions
  
-* Distance is a numerical measurement of how far apart objects or points are.
+Distance is a numerical measurement of how far apart objects or points are.
 * [Euclidean Distance](https://en.wikipedia.org/wiki/Euclidean_distance) calculates the distance between two real-valued vectors.
 * [Manhattan Distance](https://en.wikipedia.org/wiki/Taxicab_geometry) is sum of the absolute differences of their Cartesian coordinates.
 <img src="distance.png" alt="distance" width="400" height="300"/>
