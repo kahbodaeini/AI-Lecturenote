@@ -40,8 +40,10 @@ We will prove that **Consistency** implies **Admissibility** whereas the opposit
  
 Now we want to show an **inconsistent, admissible example!**
 So consider this figure:
- 
-![example](example.png)
+
+<p align="center">
+<img src="example.png" alt="example"/>
+</p>
  
 If our heuristic is admissible, we have that **h(n) $\le$ h*(n)** for every node n where **h*** is the real cost to the goal. So we deduct that **h(A) $\le$ 4**, **h(C) $\le$ 3** and **h(G) $\le$ 0**.
  
