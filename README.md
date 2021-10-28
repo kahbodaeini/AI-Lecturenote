@@ -21,13 +21,14 @@ Effect of **Admissibility** on a Heuristic is shown in the below schema:
 </p>
  
 Now we define **f(n)** function as **f(n) = h(n) + g(n)** where g(n) is sum of costs from root to n node.
- 
+
 ***Monotonicity or Consistency is that the heuristic function holds in triangle inequality.*** Namely **f(n) is never Decreasing.**
 <p align="center">
 <img src="consistency.png" alt="consistency" width="600" height="300"/>
 </p>
 
- 
+
+<hr style="border:2px solid gray"> </hr>
 Effect of **Monotonicity** on a Heuristic is shown in the below schema:
 <p align="center">
 <img src="monotonic.png" alt="monotonic" width="600" height="300"/>
